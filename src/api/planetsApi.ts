@@ -8,9 +8,9 @@ export const planetsApi = axios.create({
 planetsApi.interceptors.request.use((config) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      // resolve(config);
+      resolve(config);
       // ! insertando un error a proposito
-      reject(new Error("Error de red"));
+      // reject(new Error("Error de red"));
     }, 2000);
   });
 });

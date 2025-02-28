@@ -29,6 +29,24 @@
       "name": "Júpiter",
       "type": "Planeta",
       "distanceFromSun": "778.5 millones de km"
+    },
+    {
+      "id": "2bd9",
+      "name": "mi planeta",
+      "type": "planet",
+      "distanceFromSun": "100 millones"
+    },
+    {
+      "id": "a049",
+      "name": "asdasdas ",
+      "type": "asdasdasd ",
+      "distanceFromSun": "asdasd"
+    },
+    {
+      "id": "1502",
+      "name": "asdasdsa",
+      "type": "123213",
+      "distanceFromSun": "123123123"
     }
   ]
 }
