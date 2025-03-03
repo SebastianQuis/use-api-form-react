@@ -1,6 +1,7 @@
 import { useActionState } from "react";
 import { Planet } from "../../interfaces/planet.interface";
 import { createPlanetActionForm } from "../../actions/create-planet.action";
+import SubmitButton from "./SubmitButton";
 
 interface Props {
   onAddPlanet: (planet: Planet) => void;
@@ -8,13 +9,11 @@ interface Props {
 
 export const EditPlanetForm = ({ onAddPlanet }: Props) => {
   const [state, formAction, isPending] = useActionState(
-   
     async (prevState: unknown, queryData: FormData) => {
       const planet = await createPlanetActionForm(prevState, queryData);
       onAddPlanet(planet);
     },
     null
-
   );
 
   return (
@@ -23,7 +22,7 @@ export const EditPlanetForm = ({ onAddPlanet }: Props) => {
       action={formAction}
       method="post"
     >
-      <span>{isPending ? "cargando" : "no mostrar"}</span>
+      {/* <span>{isPending ? "cargando" : "no mostrar"}</span> */}
       <input
         type="text"
         placeholder="Nombre del planeta"
@@ -42,13 +41,14 @@ export const EditPlanetForm = ({ onAddPlanet }: Props) => {
         className="mb-2 md:mb-0 md:mr-2 p-2 border border-gray-300 rounded flex-1"
         name="distanceFromSun"
       />
-      <button
+      <SubmitButton />
+      {/* <button
         type="submit"
         className="bg-blue-500 disabled:bg-gray-600 text-white p-2 rounded flex-1 sm:flex-none"
         disabled={isPending}
       >
         Agregar planeta
-      </button>
+      </button> */}
     </form>
   );
 };

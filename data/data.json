@@ -2,51 +2,57 @@
   "planets": [
     {
       "id": "a1b2c3",
-      "name": "Mercurio",
+      "name": "MERCURIO",
       "type": "Planeta",
       "distanceFromSun": "57.91 millones de km"
     },
     {
       "id": "d4e5f6",
-      "name": "Venus",
+      "name": "VENUS",
       "type": "Planeta",
       "distanceFromSun": "108.2 millones de km"
     },
     {
       "id": "g7h8i9",
-      "name": "Tierra",
+      "name": "TIERRA",
       "type": "Planeta",
       "distanceFromSun": "149.6 millones de km"
     },
     {
       "id": "j0k1l2",
-      "name": "Marte",
+      "name": "MARTE",
       "type": "Planeta",
       "distanceFromSun": "227.9 millones de km"
     },
     {
       "id": "m3n4o5",
-      "name": "Júpiter",
+      "name": "JÚPITER",
       "type": "Planeta",
       "distanceFromSun": "778.5 millones de km"
     },
     {
       "id": "2bd9",
-      "name": "mi planeta",
+      "name": "MI PLANETA",
       "type": "planet",
       "distanceFromSun": "100 millones"
     },
     {
       "id": "a049",
-      "name": "asdasdas ",
+      "name": "ASDASDAS ",
       "type": "asdasdasd ",
       "distanceFromSun": "asdasd"
     },
     {
       "id": "1502",
-      "name": "asdasdsa",
+      "name": "ASDASDSA",
       "type": "123213",
       "distanceFromSun": "123123123"
+    },
+    {
+      "id": "5708",
+      "name": "EL EPPE",
+      "type": "nuevo",
+      "distanceFromSun": "el pepe"
     }
   ]
 }

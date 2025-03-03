@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const planetsApi = axios.create({
-  baseURL: "http://localhost:3100/planets",
+  baseURL: "http://localhost:3101/planets",
 });
 
 //! Interceptor para simular una espera de 2 segundos
